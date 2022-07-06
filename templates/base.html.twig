@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}HOME{% endblock %} - Job portal</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Bootstrap Responsive  Avs - Job Portal HTML Template">
+    <meta name="keywords"
+          content="Avs - Job Portal HTML Template,template,bootstrap 5,ui template kit,envato templates,Job Portal HTML templates,html,css">
+    <meta name="author" content="Avs - Job Portal HTML Template">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/fonts.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/LineIcons.2.0.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/tiny-slider.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/glightbox.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}"/>
+</head>
+<body>
+<div id="loading-area"></div>
+{% block body %}{% endblock %}
+<footer class="footer">
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-footer f-link">
+                                <h3>For Candidates</h3>
+                                <ul>
+                                   ***********
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-footer f-link">
+                                <h3>For Employers</h3>
+                                <ul>
+                                  ************
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-footer newsletter">
+    
+                                <h3>Join Our Newsletter</h3>
+                                <p>
+                                    Subscribe to get the latest jobs posted, candidates...
+                                </p>
+                                <form class="newsletter-inner">
+                                    <input placeholder="Your email address" class="common-input"
+                                           placeholder='Your email address' type="email"/>
+                                    <div class="button">
+                                        <button class="btn">
+                                            Subscribe Now!
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="f-about single-footer">
+                        <div class="logo">
+                          ******
+                        </div>
+                        <p>
+                            Start building your creative website with our awesome template
+                            Massive.
+                        </p>
+                        <ul class="contact-address">
+                            <li><span>Address:</span> 3909 Witmer Rd, Niagara Falls,United States</li>
+                            <li>
+                                <span>Email:</span>
+                                <a href="mailto:avsjobportal@gmail.com">avsjobportal@gmail.com</a>
+                            </li>
+                            <li><span>Call:</span><a href="tel:123-456-789">123-456-789</a></li>
+                        </ul>
+                        <div class="footer-social">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="lni lni-facebook-original"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="lni lni-twitter-original"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="lni lni-linkedin-original"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="lni lni-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="inner">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="left">
+                            <p>
+                               &copy; <a href="" target="_blank">Issam</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+</a>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/wow.min.js') }}"></script>
+<script src="{{ asset('assets/js/tiny-slider.js') }}"></script>
+<script src="{{ asset('assets/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
+{% block javascripts %}{% endblock %}
+</body>
+</html>
